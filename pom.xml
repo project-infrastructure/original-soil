@@ -39,9 +39,23 @@
         <maven.plugin.version>3.8.1</maven.plugin.version>
         <springboot.version>2.3.2.RELEASE</springboot.version>
         <springcloud.version>Hoxton.RELEASE</springcloud.version>
-
+        <lombok.version>1.18.12</lombok.version>
     </properties>
-
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+    </dependencies>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
     <build>
         <plugins>
             <!--            <plugin>-->
@@ -65,4 +79,27 @@
             </plugin>
         </plugins>
     </build>
+
+    <!-- region project-infrastructure/repository maven 仓库 -->
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>Central</name>
+            <layout>default</layout>
+            <url>https://maven.pkg.github.com/project-infrastructure/repository</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>Snapshots</name>
+            <layout>default</layout>
+            <url>https://maven.pkg.github.com/project-infrastructure/repository</url>
+        </snapshotRepository>
+    </distributionManagement>
+    <repositories>
+        <repository>
+            <id>nexus</id>
+            <url>https://maven.pkg.github.com/project-infrastructure/repository</url>
+        </repository>
+    </repositories>
+    <!-- endregion -->
 </project>
