@@ -85,23 +85,27 @@
 
     <!-- region project-infrastructure/repository maven 仓库 -->
     <distributionManagement>
-        <repository>
-            <id>central</id>
-            <name>Central</name>
-            <layout>default</layout>
-            <url>https://maven.pkg.github.com/project-infrastructure/repository</url>
-        </repository>
         <snapshotRepository>
-            <id>snapshots</id>
-            <name>Snapshots</name>
+            <id>repository-snapshot</id>
+            <name>repository-snapshot</name>
             <layout>default</layout>
-            <url>https://maven.pkg.github.com/project-infrastructure/repository</url>
+            <url>https://maven.pkg.github.com/project-infrastructure/repository-snapshot</url>
         </snapshotRepository>
+        <repository>
+            <id>repository-release</id>
+            <name>repository-release</name>
+            <layout>default</layout>
+            <url>https://maven.pkg.github.com/project-infrastructure/repository-release</url>
+        </repository>
     </distributionManagement>
     <repositories>
         <repository>
-            <id>nexus</id>
-            <url>https://maven.pkg.github.com/project-infrastructure/repository</url>
+            <id>repository-snapshot</id>
+            <url>https://maven.pkg.github.com/project-infrastructure/repository-snapshot</url>
+        </repository>
+        <repository>
+            <id>repository-release</id>
+            <url>https://maven.pkg.github.com/project-infrastructure/repository-release</url>
         </repository>
     </repositories>
     <!-- endregion -->

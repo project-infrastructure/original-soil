@@ -19,7 +19,7 @@ jobs:
         with:
           java-version: '8'
           distribution: 'adopt'
-          server-id: repository
+          server-id: repository-snapshot
           server-username: MAVEN_USERNAME
           server-password: MAVEN_PASSWORD
       - name: Publish package
