@@ -33,6 +33,7 @@
         <module>soil-whole</module>
     </modules>
     <properties>
+        <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <soil.default.version>v1.0.0-SNAPSHOT</soil.default.version>
