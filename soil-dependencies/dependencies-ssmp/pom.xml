@@ -11,6 +11,7 @@
 
     <artifactId>dependencies-ssmp</artifactId>
     <name>源端 - 依赖 - SSMP</name>
+    <packaging>pom</packaging>
 
     <dependencies>
         <dependency>
