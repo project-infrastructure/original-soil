@@ -20,7 +20,25 @@
     <dependencyManagement>
         <dependencies>
 
-            <!-- ssmp -->
+            <!-- region nacos -->
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-nacos-discovery</artifactId>
+                <version>${alibaba.springcloud.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-nacos-config</artifactId>
+                <version>${alibaba.springcloud.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpclient</artifactId>
+                <version>${apache.httpclient.version}</version>
+            </dependency>
+            <!-- endregion -->
+
+            <!-- region ssmp -->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-web</artifactId>
@@ -41,6 +59,7 @@
                 <artifactId>mybatis-plus-boot-starter</artifactId>
                 <version>${springboot.mybatisplus.version}</version>
             </dependency>
+            <!-- endregion -->
         </dependencies>
     </dependencyManagement>
 
