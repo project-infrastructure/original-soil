@@ -15,6 +15,7 @@
     <modules>
         <module>dependencies-ssmp</module>
         <module>dependencies-nacos</module>
+        <module>dependencies-nozzle</module>
     </modules>
 
     <dependencyManagement>
