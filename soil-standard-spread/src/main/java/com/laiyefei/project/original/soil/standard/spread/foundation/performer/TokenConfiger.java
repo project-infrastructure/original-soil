@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
  * @Github : http://github.com/laiyefei
  */
 @Component
-public final class TokenConfigComp implements IPerformer, EnvironmentAware {
+public final class TokenConfiger implements IPerformer, EnvironmentAware {
     public static final String TOKEN_HEADER_CONFIG_KEY = "project-infrastructure.original.soil.access-token-header";
     private static final String ACCESS_TOKEN = "access_token";
     protected static final String SIGN_KEY_INFO = "LL$leaf.fly(c)";
@@ -27,7 +27,7 @@ public final class TokenConfigComp implements IPerformer, EnvironmentAware {
     }
 
     public String gainTokenHeader() {
-        return JudgeUtil.NVL(environment.getProperty(TokenConfigComp.TOKEN_HEADER_CONFIG_KEY), ACCESS_TOKEN);
+        return JudgeUtil.NVL(environment.getProperty(TokenConfiger.TOKEN_HEADER_CONFIG_KEY), ACCESS_TOKEN);
     }
 
     public String gainProperty(String key) {
