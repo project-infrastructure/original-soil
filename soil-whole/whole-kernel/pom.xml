@@ -12,5 +12,39 @@
     <artifactId>whole-kernel</artifactId>
     <name>源端 - 聚合 - 内核</name>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.laiyefei.project</groupId>
+            <artifactId>soil-standard</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.laiyefei.project</groupId>
+            <artifactId>soil-standard-spread</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.laiyefei.project</groupId>
+            <artifactId>equip-swagger</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.laiyefei.project</groupId>
+            <artifactId>dependencies-ssmp</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>jakarta.validation</groupId>
+            <artifactId>jakarta.validation-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate.validator</groupId>
+            <artifactId>hibernate-validator</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

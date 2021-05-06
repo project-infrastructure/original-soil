@@ -12,5 +12,27 @@
     <artifactId>soil-common</artifactId>
     <name>源端 - 公用</name>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.laiyefei.project</groupId>
+            <artifactId>soil-standard</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.laiyefei.project</groupId>
+            <artifactId>soil-standard-spread</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.laiyefei.project</groupId>
+            <artifactId>equip-swagger</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

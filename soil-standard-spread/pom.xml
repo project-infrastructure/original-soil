@@ -12,14 +12,6 @@
     <artifactId>soil-standard-spread</artifactId>
     <name>源端 - 标准 - 展开</name>
 
-    <properties>
-        <apache-commons-lang3.version>3.8.1</apache-commons-lang3.version>
-        <comons-io.version>2.5</comons-io.version>
-        <jackson.version>2.10.4</jackson.version>
-        <reflections.version>0.9.11</reflections.version>
-        <alibaba.spring-context-support.version>1.0.5</alibaba.spring-context-support.version>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>com.laiyefei.project</groupId>

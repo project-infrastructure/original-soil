@@ -11,9 +11,25 @@
 
     <artifactId>dependencies-ssmp</artifactId>
     <name>源端 - 依赖 - SSMP</name>
-    <packaging>pom</packaging>
 
     <dependencies>
+        <dependency>
+            <groupId>com.laiyefei.project</groupId>
+            <artifactId>soil-standard</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.laiyefei.project</groupId>
+            <artifactId>soil-standard-spread</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.laiyefei.project</groupId>
+            <artifactId>soil-common</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.laiyefei.project</groupId>
+            <artifactId>equip-swagger</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>

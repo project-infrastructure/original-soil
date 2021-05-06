@@ -54,9 +54,16 @@
         <springcloud.version>Hoxton.RELEASE</springcloud.version>
 
         <alibaba.springcloud.version>2.2.0.RELEASE</alibaba.springcloud.version>
+        <alibaba.spring-context-support.version>1.0.5</alibaba.spring-context-support.version>
+        <alibaba.fastjson.version>1.2.72</alibaba.fastjson.version>
 
         <apache.httpclient.version>4.5.6</apache.httpclient.version>
+        <apache-commons-lang3.version>3.8.1</apache-commons-lang3.version>
 
+
+        <comons-io.version>2.5</comons-io.version>
+        <jackson.version>2.10.4</jackson.version>
+        <reflections.version>0.9.11</reflections.version>
     </properties>
     <dependencies>
         <dependency>
@@ -83,6 +90,33 @@
                 <artifactId>soil-standard-spread</artifactId>
                 <version>${soil.default.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.laiyefei.project</groupId>
+                <artifactId>soil-common</artifactId>
+                <version>${soil.default.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.laiyefei.project</groupId>
+                <artifactId>dependencies-nacos</artifactId>
+                <type>pom</type>
+                <version>${soil.default.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.laiyefei.project</groupId>
+                <artifactId>dependencies-nozzle</artifactId>
+                <type>pom</type>
+                <version>${soil.default.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.laiyefei.project</groupId>
+                <artifactId>dependencies-ssmp</artifactId>
+                <version>${soil.default.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.laiyefei.project</groupId>
+                <artifactId>equip-swagger</artifactId>
+                <version>${soil.default.version}</version>
+            </dependency>
             <!-- endregion -->
 
             <!-- region  第三方框架依赖包管理 -->
@@ -107,11 +141,24 @@
                 <version>${spring.version}</version>
             </dependency>
             <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-web</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-autoconfigure</artifactId>
                 <version>${springboot.version}</version>
             </dependency>
             <!-- endregion -->
+
+            <!-- region else -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${alibaba.fastjson.version}</version>
+            </dependency>
+            <!-- endregion  -->
 
         </dependencies>
     </dependencyManagement>

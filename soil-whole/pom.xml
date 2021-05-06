@@ -17,5 +17,14 @@
         <module>whole-shell</module>
     </modules>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${apache-commons-lang3.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
 </project>
