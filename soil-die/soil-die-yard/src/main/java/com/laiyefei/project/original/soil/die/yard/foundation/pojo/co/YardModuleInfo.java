@@ -14,7 +14,7 @@ import com.laiyefei.project.infrastructure.original.soil.standard.foundation.poj
 public enum YardModuleInfo implements ICo {
     Artifact("soil-yard", "yard 模块坐标"),
     ;
-    public static final String BASE_PACKAGE = "com.laiyefei.project.original.soil.yard";
+    public static final String BASE_PACKAGE = "com.laiyefei.project.original.soil.die.yard";
     private final String code;
     private final String description;
 
