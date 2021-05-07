@@ -15,7 +15,8 @@
  */
 package com.laiyefei.project.original.soil.whole.kernel.pojo.ao;
 
-import com.laiyefei.project.infrastructure.standard.java.foundation.pojo.ao.Ao;
+
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.pojo.ao.Ao;
 
 import java.lang.annotation.*;
 

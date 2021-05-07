@@ -17,6 +17,7 @@ package com.laiyefei.project.original.soil.whole.kernel.pojo.po;
 
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.laiyefei.project.infrastructure.original.soil.standard.foundation.pojo.dto.IDto;
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.pojo.po.IPo;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.experimental.Accessors;
@@ -35,7 +36,7 @@ import javax.validation.constraints.NotNull;
 @Getter
 @Setter
 @Accessors(chain = true)
-public class Dictionary extends BaseExtPo {
+public class Dictionary extends BaseExtPo implements IPo {
     private static final long serialVersionUID = 11301L;
 
     /***

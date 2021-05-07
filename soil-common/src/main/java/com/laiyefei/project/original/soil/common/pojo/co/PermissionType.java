@@ -1,6 +1,6 @@
 package com.laiyefei.project.original.soil.common.pojo.co;
 
-import com.laiyefei.project.infrastructure.standard.java.foundation.pojo.co.ICo;
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.pojo.co.ICo;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 

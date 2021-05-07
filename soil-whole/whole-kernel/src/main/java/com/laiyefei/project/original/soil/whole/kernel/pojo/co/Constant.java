@@ -15,7 +15,8 @@
  */
 package com.laiyefei.project.original.soil.whole.kernel.pojo.co;
 
-import com.laiyefei.project.infrastructure.standard.java.foundation.pojo.co.ICo;
+
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.pojo.co.ICo;
 
 /**
  * @Author : leaf.fly(?)

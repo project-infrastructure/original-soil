@@ -18,10 +18,11 @@ package com.laiyefei.project.original.soil.whole.kernel.pojo.dto;
 import com.alibaba.fastjson.annotation.JSONField;
 import com.baomidou.mybatisplus.core.metadata.OrderItem;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.laiyefei.project.original.soil.kernel.configure.SystemConfig;
-import com.laiyefei.project.original.soil.kernel.pojo.co.Constant;
-import com.laiyefei.project.original.soil.kernel.tools.util.StringUtil;
-import com.laiyefei.project.original.soil.kernel.tools.util.Validator;
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.pojo.dto.IDto;
+import com.laiyefei.project.original.soil.whole.kernel.pojo.co.Constant;
+import com.laiyefei.project.original.soil.whole.kernel.prepper.SystemConfig;
+import com.laiyefei.project.original.soil.whole.kernel.tools.util.StringUtil;
+import com.laiyefei.project.original.soil.whole.kernel.tools.util.Validator;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.experimental.Accessors;
@@ -43,7 +44,7 @@ import java.util.List;
 @Getter
 @Setter
 @Accessors(chain = true)
-public class Pagination implements Serializable {
+public class Pagination implements IDto, Serializable {
     private static final Logger log = LoggerFactory.getLogger(Pagination.class);
 
     private static final long serialVersionUID = -4083929594112114522L;

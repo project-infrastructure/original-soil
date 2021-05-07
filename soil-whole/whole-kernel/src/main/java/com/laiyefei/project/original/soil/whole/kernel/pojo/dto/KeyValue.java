@@ -15,6 +15,7 @@
  */
 package com.laiyefei.project.original.soil.whole.kernel.pojo.dto;
 
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.pojo.dto.IDto;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.experimental.Accessors;
@@ -32,7 +33,7 @@ import java.io.Serializable;
 @Getter
 @Setter
 @Accessors(chain = true)
-public class KeyValue implements Serializable {
+public class KeyValue implements IDto, Serializable {
     private static final long serialVersionUID = -2358161241655186720L;
 
     public KeyValue() {

@@ -15,7 +15,7 @@
  */
 package com.laiyefei.project.original.soil.whole.kernel.pojo.dao;
 
-import com.laiyefei.project.original.soil.kernel.pojo.po.Dictionary;
+import com.laiyefei.project.original.soil.whole.kernel.pojo.po.Dictionary;
 import org.apache.ibatis.annotations.Mapper;
 
 

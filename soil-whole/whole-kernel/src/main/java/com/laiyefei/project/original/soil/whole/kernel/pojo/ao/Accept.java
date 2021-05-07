@@ -15,6 +15,8 @@
  */
 package com.laiyefei.project.original.soil.whole.kernel.pojo.ao;
 
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.pojo.ao.Ao;
+
 import java.lang.annotation.*;
 
 /**
@@ -25,6 +27,7 @@ import java.lang.annotation.*;
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */
+@Ao
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.FIELD})
 @Documented

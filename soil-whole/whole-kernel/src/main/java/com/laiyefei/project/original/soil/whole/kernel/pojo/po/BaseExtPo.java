@@ -16,8 +16,9 @@
 package com.laiyefei.project.original.soil.whole.kernel.pojo.po;
 
 import com.baomidou.mybatisplus.annotation.TableField;
-import com.laiyefei.project.original.soil.kernel.tools.util.JSON;
-import com.laiyefei.project.original.soil.kernel.tools.util.Validator;
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.pojo.po.IPo;
+import com.laiyefei.project.original.soil.whole.kernel.tools.util.JSON;
+import com.laiyefei.project.original.soil.whole.kernel.tools.util.Validator;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -31,7 +32,7 @@ import java.util.Map;
  * @Github : http://github.com/laiyefei
  */
 @Deprecated
-public abstract class BaseExtPo extends BasePo {
+public abstract class BaseExtPo extends BasePo implements IPo {
     private static final long serialVersionUID = 10204L;
 
     @TableField

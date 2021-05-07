@@ -16,9 +16,10 @@
 package com.laiyefei.project.original.soil.whole.kernel.pojo.dto;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.laiyefei.project.original.soil.kernel.pojo.co.Constant;
-import com.laiyefei.project.original.soil.kernel.tools.util.StringUtil;
-import com.laiyefei.project.original.soil.kernel.tools.util.Validator;
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.pojo.dto.IDto;
+import com.laiyefei.project.original.soil.whole.kernel.pojo.co.Constant;
+import com.laiyefei.project.original.soil.whole.kernel.tools.util.StringUtil;
+import com.laiyefei.project.original.soil.whole.kernel.tools.util.Validator;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,7 +32,7 @@ import java.util.List;
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */
-public class PagingJsonResult extends JsonResult {
+public class PagingJsonResult extends JsonResult implements IDto {
     private static final long serialVersionUID = 1001L;
 
     /***

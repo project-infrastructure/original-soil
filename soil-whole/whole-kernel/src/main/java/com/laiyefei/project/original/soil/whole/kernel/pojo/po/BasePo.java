@@ -16,12 +16,14 @@
 package com.laiyefei.project.original.soil.whole.kernel.pojo.po;
 
 import com.alibaba.fastjson.annotation.JSONField;
-import com.laiyefei.project.original.soil.kernel.aid.ContextHelper;
-import com.laiyefei.project.original.soil.kernel.pojo.co.Constant;
-import com.laiyefei.project.original.soil.kernel.tools.util.BeanUtil;
-import com.laiyefei.project.original.soil.kernel.tools.util.DateUtil;
-import com.laiyefei.project.original.soil.kernel.tools.util.JSON;
+import com.baomidou.mybatisplus.annotation.*;
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.pojo.po.IPo;
 import com.laiyefei.project.original.soil.standard.spread.foundation.pojo.po.AbsPo;
+import com.laiyefei.project.original.soil.whole.kernel.aid.ContextHelper;
+import com.laiyefei.project.original.soil.whole.kernel.pojo.co.Constant;
+import com.laiyefei.project.original.soil.whole.kernel.tools.util.BeanUtil;
+import com.laiyefei.project.original.soil.whole.kernel.tools.util.DateUtil;
+import com.laiyefei.project.original.soil.whole.kernel.tools.util.JSON;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.experimental.Accessors;
@@ -40,7 +42,7 @@ import java.util.Map;
 @Getter
 @Setter
 @Accessors(chain = true)
-public abstract class BasePo extends AbsPo {
+public abstract class BasePo extends AbsPo implements IPo {
     private static final long serialVersionUID = 10203L;
 
     /**

@@ -64,6 +64,9 @@
         <comons-io.version>2.5</comons-io.version>
         <jackson.version>2.10.4</jackson.version>
         <reflections.version>0.9.11</reflections.version>
+
+        <auth0.java-jwt.version>3.11.0</auth0.java-jwt.version>
+
     </properties>
     <dependencies>
         <dependency>
@@ -93,6 +96,11 @@
             <dependency>
                 <groupId>com.laiyefei.project</groupId>
                 <artifactId>soil-common</artifactId>
+                <version>${soil.default.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.laiyefei.project</groupId>
+                <artifactId>whole-kernel</artifactId>
                 <version>${soil.default.version}</version>
             </dependency>
             <dependency>
@@ -158,10 +166,24 @@
                 <artifactId>fastjson</artifactId>
                 <version>${alibaba.fastjson.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.auth0</groupId>
+                <artifactId>java-jwt</artifactId>
+                <version>${auth0.java-jwt.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${apache-commons-lang3.version}</version>
+            </dependency>
             <!-- endregion  -->
 
         </dependencies>
     </dependencyManagement>
+
+
+
+
     <build>
         <plugins>
             <!--            <plugin>-->
@@ -185,7 +207,6 @@
             </plugin>
         </plugins>
     </build>
-
     <!-- region project-infrastructure/repository maven 仓库 -->
     <distributionManagement>
         <snapshotRepository>

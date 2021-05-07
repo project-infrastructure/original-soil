@@ -18,13 +18,13 @@ package com.laiyefei.project.original.soil.whole.kernel.aid.binding.query.dynami
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.segments.MergeSegments;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.laiyefei.project.infrastructure.standard.java.foundation.aid.IAid;
-import com.laiyefei.project.original.soil.kernel.aid.binding.QueryBuilder;
-import com.laiyefei.project.original.soil.kernel.aid.binding.parser.ParserCache;
-import com.laiyefei.project.original.soil.kernel.configure.SystemConfig;
-import com.laiyefei.project.original.soil.kernel.pojo.co.Constant;
-import com.laiyefei.project.original.soil.kernel.tools.util.StringUtil;
-import com.laiyefei.project.original.soil.kernel.tools.util.Validator;
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.aid.IAid;
+import com.laiyefei.project.original.soil.whole.kernel.aid.binding.QueryBuilder;
+import com.laiyefei.project.original.soil.whole.kernel.aid.binding.parser.ParserCache;
+import com.laiyefei.project.original.soil.whole.kernel.pojo.co.Constant;
+import com.laiyefei.project.original.soil.whole.kernel.prepper.SystemConfig;
+import com.laiyefei.project.original.soil.whole.kernel.tools.util.StringUtil;
+import com.laiyefei.project.original.soil.whole.kernel.tools.util.Validator;
 import org.apache.ibatis.jdbc.SQL;
 
 import java.util.ArrayList;
@@ -142,10 +142,14 @@ public class DynamicSqlProvider implements IAid {
                 }
             }
             if (limit1) {
-                LIMIT(1);
+                //LIMIT(1);
+                //TODO.. the mybatis version is 2.5.5 right.
+                //sql().limit = variable;
+                //sql().limitingRowsStrategy = AbstractSQL.SQLStatement.LimitingRowsStrategy.OFFSET_LIMIT;
             }
         }}.toString();
     }
+
 
     /**
      * 格式化sql select列语句

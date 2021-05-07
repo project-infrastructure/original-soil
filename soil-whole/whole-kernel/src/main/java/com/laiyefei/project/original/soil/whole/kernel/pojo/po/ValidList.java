@@ -15,6 +15,9 @@
  */
 package com.laiyefei.project.original.soil.whole.kernel.pojo.po;
 
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.pojo.dto.IDto;
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.pojo.po.IPo;
+
 import javax.validation.Valid;
 import java.util.*;
 
@@ -26,7 +29,7 @@ import java.util.*;
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */
-public class ValidList<T> implements List<T> {
+public class ValidList<T> implements IPo, List<T> {
     @Valid
     private List<T> list;
 
@@ -167,5 +170,11 @@ public class ValidList<T> implements List<T> {
     @Override
     public List<T> subList(int fromIndex, int toIndex) {
         return list.subList(fromIndex, toIndex);
+    }
+
+
+    @Override
+    public IDto buildDto() {
+        throw new RuntimeException("error: no impl.");
     }
 }

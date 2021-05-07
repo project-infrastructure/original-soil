@@ -16,9 +16,10 @@
 package com.laiyefei.project.original.soil.whole.kernel.pojo.dto;
 
 
-import com.laiyefei.project.original.soil.kernel.tools.util.StringUtil;
-import com.laiyefei.project.original.soil.kernel.tools.util.Validator;
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.pojo.dto.IDto;
 import com.laiyefei.project.original.soil.standard.spread.foundation.pojo.dto.AbsDto;
+import com.laiyefei.project.original.soil.whole.kernel.tools.util.StringUtil;
+import com.laiyefei.project.original.soil.whole.kernel.tools.util.Validator;
 
 /**
  * @Author : leaf.fly(?)
@@ -28,7 +29,7 @@ import com.laiyefei.project.original.soil.standard.spread.foundation.pojo.dto.Ab
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */
-public class JsonResult extends AbsDto {
+public class JsonResult extends AbsDto implements IDto {
     private static final long serialVersionUID = 1001L;
 
     /***

@@ -16,10 +16,10 @@
 package com.laiyefei.project.original.soil.whole.kernel.aid.binding.binder;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.laiyefei.project.original.soil.kernel.aid.ISetter;
-import com.laiyefei.project.original.soil.kernel.tools.util.BeanUtil;
-import com.laiyefei.project.original.soil.kernel.tools.util.StringUtil;
-import com.laiyefei.project.original.soil.kernel.tools.util.Validator;
+import com.laiyefei.project.original.soil.whole.kernel.aid.ISetter;
+import com.laiyefei.project.original.soil.whole.kernel.tools.util.BeanUtil;
+import com.laiyefei.project.original.soil.whole.kernel.tools.util.StringUtil;
+import com.laiyefei.project.original.soil.whole.kernel.tools.util.Validator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

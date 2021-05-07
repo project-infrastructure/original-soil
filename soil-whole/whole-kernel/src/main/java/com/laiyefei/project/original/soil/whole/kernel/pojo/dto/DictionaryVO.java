@@ -15,6 +15,7 @@
  */
 package com.laiyefei.project.original.soil.whole.kernel.pojo.dto;
 
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.pojo.dto.IDto;
 import com.laiyefei.project.original.soil.whole.kernel.pojo.ao.BindPoList;
 import com.laiyefei.project.original.soil.whole.kernel.pojo.po.Dictionary;
 import lombok.Getter;
@@ -34,9 +35,9 @@ import java.util.List;
 @Getter
 @Setter
 @Accessors(chain = true)
-public class DictionaryVO extends Dictionary {
+public class DictionaryVO extends Dictionary implements IDto {
 
-    @BindPoList(entity= Dictionary.class, condition="this.type=type AND parent_id>0")
+    @BindPoList(entity = Dictionary.class, condition = "this.type=type AND parent_id>0")
     private List<Dictionary> children;
 
 }
