@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>original-soil</artifactId>
+        <groupId>com.laiyefei.project</groupId>
+        <version>v1.0.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>soil-widget</artifactId>
+    <packaging>pom</packaging>
+    <name>源端 - 微件</name>
+    <modules>
+        <module>widget-netty</module>
+    </modules>
+
+    <!-- region project-infrastructure/repository maven 仓库 -->
+    <distributionManagement>
+        <snapshotRepository>
+            <id>repository-snapshot</id>
+            <name>repository-snapshot</name>
+            <layout>default</layout>
+            <url>https://maven.pkg.github.com/project-infrastructure/repository-snapshot</url>
+        </snapshotRepository>
+        <repository>
+            <id>repository-release</id>
+            <name>repository-release</name>
+            <layout>default</layout>
+            <url>https://maven.pkg.github.com/project-infrastructure/repository-release</url>
+        </repository>
+    </distributionManagement>
+    <repositories>
+        <repository>
+            <id>repository-snapshot</id>
+            <url>https://maven.pkg.github.com/project-infrastructure/repository-snapshot</url>
+        </repository>
+        <repository>
+            <id>repository-release</id>
+            <url>https://maven.pkg.github.com/project-infrastructure/repository-release</url>
+        </repository>
+    </repositories>
+    <!-- endregion -->
+</project>
