@@ -3,7 +3,7 @@ package com.laiyefei.project.original.soil.die.yard.foundation.performer.interce
 import com.laiyefei.project.infrastructure.original.soil.standard.foundation.performer.IPerformer;
 import com.laiyefei.project.original.soil.die.yard.central.service.IUserService;
 import com.laiyefei.project.original.soil.die.yard.foundation.aid.GlobalUserCache;
-import com.laiyefei.project.original.soil.die.yard.foundation.performer.TokenDataComp;
+import com.laiyefei.project.original.soil.die.yard.foundation.performer.TokenDataHolder;
 import com.laiyefei.project.original.soil.die.yard.foundation.pojo.eo.PVException;
 import com.laiyefei.project.original.soil.die.yard.foundation.pojo.eo.RestException;
 import com.laiyefei.project.original.soil.die.yard.foundation.pojo.po.User;
@@ -43,15 +43,15 @@ import java.lang.reflect.Method;
 public class UInterceptor extends HandlerInterceptorAdapter implements IPerformer, IInterceptorEO {
 
     private final TokenConfiger tokenConfiger;
-    private final TokenDataComp tokenDataComp;
+    private final TokenDataHolder tokenDataHolder;
     private final IUserService userService;
 
     @Autowired
     public UInterceptor(TokenConfiger tokenConfiger,
-                        TokenDataComp tokenDataComp,
+                        TokenDataHolder tokenDataHolder,
                         IUserService userService) {
         this.tokenConfiger = tokenConfiger;
-        this.tokenDataComp = tokenDataComp;
+        this.tokenDataHolder = tokenDataHolder;
         this.userService = userService;
     }
 
@@ -101,7 +101,7 @@ public class UInterceptor extends HandlerInterceptorAdapter implements IPerforme
         }
         String userId;
         try {
-            userId = tokenDataComp.unLashToken(accessToken);
+            userId = tokenDataHolder.unLashToken(accessToken);
         } catch (Exception e) {
             throw new PVException.VerifyFailed(e);
         }

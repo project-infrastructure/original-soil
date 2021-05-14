@@ -24,15 +24,15 @@ import java.util.List;
  * @Github : http://github.com/laiyefei
  */
 @Component
-public final class TokenDataComp {
+public final class TokenDataHolder {
 
     private final TokenConfiger tokenConfiger;
     private final IUserService userService;
     //一天
     private final long expireTimeDelta = 24 * 60 * 60 * 1000;
 
-    public TokenDataComp(TokenConfiger tokenConfiger,
-                         IUserService userService) {
+    public TokenDataHolder(TokenConfiger tokenConfiger,
+                           IUserService userService) {
         this.tokenConfiger = tokenConfiger;
         this.userService = userService;
     }

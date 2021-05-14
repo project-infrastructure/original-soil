@@ -1,4 +1,4 @@
-package com.laiyefei.project.original.soil.die.yard.foundation.configure;
+package com.laiyefei.project.original.soil.die.yard.foundation.prepper;
 
 import com.laiyefei.project.infrastructure.original.soil.standard.foundation.prepper.IPrepper;
 import org.springframework.context.annotation.Configuration;

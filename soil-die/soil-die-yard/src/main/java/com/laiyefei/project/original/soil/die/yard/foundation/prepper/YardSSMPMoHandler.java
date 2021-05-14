@@ -1,4 +1,4 @@
-package com.laiyefei.project.original.soil.die.yard.foundation.configure;
+package com.laiyefei.project.original.soil.die.yard.foundation.prepper;
 
 import com.laiyefei.project.original.soil.dependencies.ssmp.foundation.pojo.po.AbsBasePo;
 import com.laiyefei.project.original.soil.dependencies.ssmp.foundation.prepper.AbsMetaObjectHandler;
