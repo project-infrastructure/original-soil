@@ -10,19 +10,19 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>whole-kernel</artifactId>
-    <name>源端 - 聚合 - 内核  ${project.version}</name>
+    <name>源端 - 聚合 - 内核 ➥ ${project.version}</name>
 
     <dependencies>
         <dependency>
-            <groupId>com.laiyefei.project</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>soil-standard-spread</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.laiyefei.project</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>equip-swagger</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.laiyefei.project</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>dependencies-ssmp</artifactId>
         </dependency>
         <dependency>
@@ -44,19 +44,17 @@
     </dependencies>
 
 
-
-
     <!-- region project-infrastructure/repository maven 仓库 -->
     <distributionManagement>
         <snapshotRepository>
             <id>repository-snapshot</id>
-            <name>repository-snapshot  ${project.version}</name>
+            <name>repository-snapshot ➥ ${project.version}</name>
             <layout>default</layout>
             <url>https://maven.pkg.github.com/project-infrastructure/repository-snapshot</url>
         </snapshotRepository>
         <repository>
             <id>repository-release</id>
-            <name>repository-release  ${project.version}</name>
+            <name>repository-release ➥ ${project.version}</name>
             <layout>default</layout>
             <url>https://maven.pkg.github.com/project-infrastructure/repository-release</url>
         </repository>

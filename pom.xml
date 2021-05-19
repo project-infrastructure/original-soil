@@ -21,7 +21,7 @@
     <artifactId>original-soil</artifactId>
     <packaging>pom</packaging>
     <version>v1.0.0-SNAPSHOT</version>
-    <name>源端  ${project.version}</name>
+    <name>源端 ➥ ${project.version}</name>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -88,44 +88,44 @@
 
             <!-- region 项目包版本管理 -->
             <dependency>
-                <groupId>com.laiyefei.project</groupId>
+                <groupId>${project.groupId}</groupId>
                 <artifactId>soil-standard</artifactId>
                 <version>${soil.default.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.laiyefei.project</groupId>
+                <groupId>${project.groupId}</groupId>
                 <artifactId>soil-standard-spread</artifactId>
                 <version>${soil.default.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.laiyefei.project</groupId>
+                <groupId>${project.groupId}</groupId>
                 <artifactId>soil-common</artifactId>
                 <version>${soil.default.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.laiyefei.project</groupId>
+                <groupId>${project.groupId}</groupId>
                 <artifactId>whole-kernel</artifactId>
                 <version>${soil.default.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.laiyefei.project</groupId>
+                <groupId>${project.groupId}</groupId>
                 <artifactId>dependencies-nacos</artifactId>
                 <type>pom</type>
                 <version>${soil.default.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.laiyefei.project</groupId>
+                <groupId>${project.groupId}</groupId>
                 <artifactId>dependencies-nozzle</artifactId>
                 <type>pom</type>
                 <version>${soil.default.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.laiyefei.project</groupId>
+                <groupId>${project.groupId}</groupId>
                 <artifactId>dependencies-ssmp</artifactId>
                 <version>${soil.default.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.laiyefei.project</groupId>
+                <groupId>${project.groupId}</groupId>
                 <artifactId>equip-swagger</artifactId>
                 <version>${soil.default.version}</version>
             </dependency>
@@ -186,8 +186,6 @@
     </dependencyManagement>
 
 
-
-
     <build>
         <plugins>
             <!--            <plugin>-->
@@ -215,13 +213,13 @@
     <distributionManagement>
         <snapshotRepository>
             <id>repository-snapshot</id>
-            <name>repository-snapshot  ${project.version}</name>
+            <name>repository-snapshot ➥ ${project.version}</name>
             <layout>default</layout>
             <url>https://maven.pkg.github.com/project-infrastructure/repository-snapshot</url>
         </snapshotRepository>
         <repository>
             <id>repository-release</id>
-            <name>repository-release  ${project.version}</name>
+            <name>repository-release ➥ ${project.version}</name>
             <layout>default</layout>
             <url>https://maven.pkg.github.com/project-infrastructure/repository-release</url>
         </repository>

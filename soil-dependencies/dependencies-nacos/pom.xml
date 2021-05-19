@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>dependencies-nacos</artifactId>
-    <name>源端 - 依赖 - NACOS  ${project.version}</name>
+    <name>源端 - 依赖 - NACOS ➥ ${project.version}</name>
     <packaging>pom</packaging>
 
     <dependencies>
@@ -29,19 +29,17 @@
     </dependencies>
 
 
-
-
     <!-- region project-infrastructure/repository maven 仓库 -->
     <distributionManagement>
         <snapshotRepository>
             <id>repository-snapshot</id>
-            <name>repository-snapshot  ${project.version}</name>
+            <name>repository-snapshot ➥ ${project.version}</name>
             <layout>default</layout>
             <url>https://maven.pkg.github.com/project-infrastructure/repository-snapshot</url>
         </snapshotRepository>
         <repository>
             <id>repository-release</id>
-            <name>repository-release  ${project.version}</name>
+            <name>repository-release ➥ ${project.version}</name>
             <layout>default</layout>
             <url>https://maven.pkg.github.com/project-infrastructure/repository-release</url>
         </repository>
