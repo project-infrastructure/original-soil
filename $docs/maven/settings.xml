@@ -134,12 +134,12 @@ under the License.
     <server>
       <id>repository-snapshot</id>
       <username>project-publicer</username>
-      <password>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</password>
+      <password>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</password>
     </server>
     <server>
       <id>repository-release</id>
       <username>project-publicer</username>
-      <password>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</password>
+      <password>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</password>
     </server>
   </servers>
 

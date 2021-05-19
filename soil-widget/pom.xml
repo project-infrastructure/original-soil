@@ -14,7 +14,6 @@
     <name>源端 - 微件 ➥ ${project.version}</name>
     <modules>
         <module>widget-netty</module>
-        <module>widget-nacos</module>
     </modules>
 
     <!-- region project-infrastructure/repository maven 仓库 -->
