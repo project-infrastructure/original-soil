@@ -11,7 +11,7 @@
 
     <artifactId>soil-dependencies</artifactId>
     <packaging>pom</packaging>
-    <name>源端 - 依赖</name>
+    <name>源端 - 依赖  ${project.version}</name>
     <modules>
         <module>dependencies-ssmp</module>
         <module>dependencies-nacos</module>
@@ -72,13 +72,13 @@
     <distributionManagement>
         <snapshotRepository>
             <id>repository-snapshot</id>
-            <name>repository-snapshot</name>
+            <name>repository-snapshot  ${project.version}</name>
             <layout>default</layout>
             <url>https://maven.pkg.github.com/project-infrastructure/repository-snapshot</url>
         </snapshotRepository>
         <repository>
             <id>repository-release</id>
-            <name>repository-release</name>
+            <name>repository-release  ${project.version}</name>
             <layout>default</layout>
             <url>https://maven.pkg.github.com/project-infrastructure/repository-release</url>
         </repository>

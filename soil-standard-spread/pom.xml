@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>soil-standard-spread</artifactId>
-    <name>源端 - 标准 - 展开</name>
+    <name>源端 - 标准 - 展开  ${project.version}</name>
 
     <dependencies>
         <dependency>
@@ -75,13 +75,13 @@
     <distributionManagement>
         <snapshotRepository>
             <id>repository-snapshot</id>
-            <name>repository-snapshot</name>
+            <name>repository-snapshot  ${project.version}</name>
             <layout>default</layout>
             <url>https://maven.pkg.github.com/project-infrastructure/repository-snapshot</url>
         </snapshotRepository>
         <repository>
             <id>repository-release</id>
-            <name>repository-release</name>
+            <name>repository-release  ${project.version}</name>
             <layout>default</layout>
             <url>https://maven.pkg.github.com/project-infrastructure/repository-release</url>
         </repository>

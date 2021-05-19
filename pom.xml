@@ -21,7 +21,7 @@
     <artifactId>original-soil</artifactId>
     <packaging>pom</packaging>
     <version>v1.0.0-SNAPSHOT</version>
-    <name>源端</name>
+    <name>源端  ${project.version}</name>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -215,13 +215,13 @@
     <distributionManagement>
         <snapshotRepository>
             <id>repository-snapshot</id>
-            <name>repository-snapshot</name>
+            <name>repository-snapshot  ${project.version}</name>
             <layout>default</layout>
             <url>https://maven.pkg.github.com/project-infrastructure/repository-snapshot</url>
         </snapshotRepository>
         <repository>
             <id>repository-release</id>
-            <name>repository-release</name>
+            <name>repository-release  ${project.version}</name>
             <layout>default</layout>
             <url>https://maven.pkg.github.com/project-infrastructure/repository-release</url>
         </repository>
