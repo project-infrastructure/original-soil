@@ -48,13 +48,13 @@
     <distributionManagement>
         <snapshotRepository>
             <id>repository-snapshot</id>
-            <name>repository-snapshot ➥ ${project.version}</name>
+            <name>repository-snapshot</name>
             <layout>default</layout>
             <url>https://maven.pkg.github.com/project-infrastructure/repository-snapshot</url>
         </snapshotRepository>
         <repository>
             <id>repository-release</id>
-            <name>repository-release ➥ ${project.version}</name>
+            <name>repository-release</name>
             <layout>default</layout>
             <url>https://maven.pkg.github.com/project-infrastructure/repository-release</url>
         </repository>
