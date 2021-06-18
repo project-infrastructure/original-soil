@@ -5,6 +5,7 @@ import com.laiyefei.project.infrastructure.original.soil.standard.foundation.poj
 import com.laiyefei.project.infrastructure.original.soil.standard.foundation.prepper.IPrepper;
 import com.laiyefei.project.original.soil.equip.swagger.SwaggerInstall;
 import com.laiyefei.project.original.soil.equip.swagger.co.SwaggerModuleInfo;
+import com.laiyefei.project.original.soil.equip.swagger.co.WhiteList;
 import com.laiyefei.project.original.soil.standard.spread.foundation.performer.TokenConfiger;
 import com.laiyefei.project.original.soil.standard.spread.foundation.pojo.co.LicenseType;
 import com.laiyefei.project.original.soil.standard.spread.foundation.tools.util.ClassUtil;
@@ -17,6 +18,7 @@ import org.springframework.context.ApplicationContextAware;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.util.Assert;
+import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.builders.PathSelectors;
@@ -116,5 +118,15 @@ public class SwaggerPrepper implements IPrepper, WebMvcConfigurer, ApplicationCo
     @Override
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
         this.context = applicationContext;
+    }
+
+    @Override
+    public final void addResourceHandlers(ResourceHandlerRegistry registry) {
+        for (final WhiteList value : WhiteList.values()) {
+            if(value.isResource()){
+                registry.addResourceHandler(value.getRouteMatch())
+                        .addResourceLocations(value.getClassPath());
+            }
+        }
     }
 }

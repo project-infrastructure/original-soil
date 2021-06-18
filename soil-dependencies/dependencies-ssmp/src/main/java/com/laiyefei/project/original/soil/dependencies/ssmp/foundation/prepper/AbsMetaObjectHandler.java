@@ -3,10 +3,12 @@ package com.laiyefei.project.original.soil.dependencies.ssmp.foundation.prepper;
 import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;
 import com.laiyefei.project.infrastructure.original.soil.standard.foundation.performer.IPerformer;
 import com.laiyefei.project.original.soil.dependencies.ssmp.foundation.pojo.po.AbsBasePo;
+import com.laiyefei.project.original.soil.standard.spread.foundation.tools.util.JudgeUtil;
 import org.apache.ibatis.reflection.MetaObject;
 
 import java.sql.Timestamp;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -25,12 +27,13 @@ public abstract class AbsMetaObjectHandler implements IPerformer, MetaObjectHand
 
     @Override
     public void insertFill(MetaObject metaObject) {
-        Map<String, Object> items = installInsert();
+        Map<String, Object> items = new HashMap<>();
         if (null == items || items.size() <= 0) {
             return;
         }
         items.put(AbsBasePo.CREATE_TIME, new Timestamp(new Date().getTime()));
         items.put(AbsBasePo.UPDATE_TIME, new Timestamp(new Date().getTime()));
+        items.putAll(JudgeUtil.NVL(installInsert(), new HashMap<>()));
         for (Map.Entry<String, Object> stringTEntry : items.entrySet()) {
             metaObject.setValue(AbsBasePo.getFieldCodeBy(stringTEntry.getKey()), stringTEntry.getValue());
         }
@@ -38,11 +41,12 @@ public abstract class AbsMetaObjectHandler implements IPerformer, MetaObjectHand
 
     @Override
     public void updateFill(MetaObject metaObject) {
-        Map<String, Object> items = installUpdate();
+        Map<String, Object> items = new HashMap<>();
         if (null == items || items.size() <= 0) {
             return;
         }
         items.put(AbsBasePo.UPDATE_TIME, new Timestamp(new Date().getTime()));
+        items.putAll(JudgeUtil.NVL(installUpdate(), new HashMap<>()));
         for (Map.Entry<String, Object> stringTEntry : items.entrySet()) {
             metaObject.setValue(AbsBasePo.getFieldCodeBy(stringTEntry.getKey()), stringTEntry.getValue());
         }
