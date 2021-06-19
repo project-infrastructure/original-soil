@@ -1,4 +1,4 @@
-package com.laiyefei.project.original.soil.whole.kernel;
+package com.laiyefei.project.original.soil.standard.spread;
 
 import com.laiyefei.project.infrastructure.original.soil.standard.IStandardJava;
 import com.laiyefei.project.original.soil.standard.spread.foundation.tools.util.IPUtil;
