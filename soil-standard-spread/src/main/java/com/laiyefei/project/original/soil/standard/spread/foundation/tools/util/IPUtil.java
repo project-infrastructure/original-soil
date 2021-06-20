@@ -28,6 +28,7 @@ public abstract class IPUtil implements IUtil {
     private static final String $0_0_0_0_0_0_0_1 = "0:0:0:0:0:0:0:1";
     private static final String $127_0_0_1 = "127.0.0.1";
     private static final String $UNKNOWN = "未知";
+    private static final String DEFAULT_SERVER_PORT = "8080";
 
     private IPUtil() {
         throw new RuntimeException("can not be an instance.");
@@ -174,6 +175,6 @@ public abstract class IPUtil implements IUtil {
     }
 
     public static String getHostIpPort(Environment environment) {
-        return getHostIp().concat(":").concat(environment.getProperty("local.server.port"));
+        return getHostIp().concat(":").concat(JudgeUtil.NVL(environment.getProperty("local.server.port"), IPUtil.DEFAULT_SERVER_PORT));
     }
 }
