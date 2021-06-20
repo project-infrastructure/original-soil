@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.laiyefei.project.original.soil.dependencies.ssmp.foundation.action.AutoSSMPInitializer
+com.laiyefei.project.infrastructure.original.soil.dependencies.ssmp.foundation.action.AutoSSMPInitializer
