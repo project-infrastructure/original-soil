@@ -17,7 +17,6 @@ package com.laiyefei.project.infrastructure.original.soil.whole.kernel.aid.bindi
 
 
 import com.laiyefei.project.infrastructure.original.soil.whole.kernel.pojo.ao.*;
-import com.laiyefei.project.original.soil.whole.kernel.pojo.ao.*;
 
 import java.lang.annotation.Annotation;
 import java.util.ArrayList;

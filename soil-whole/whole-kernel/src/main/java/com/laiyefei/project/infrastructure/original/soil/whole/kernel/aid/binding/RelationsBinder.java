@@ -17,6 +17,7 @@ package com.laiyefei.project.infrastructure.original.soil.whole.kernel.aid.bindi
 
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.laiyefei.project.infrastructure.original.soil.standard.foundation.aid.IAid;
+import com.laiyefei.project.infrastructure.original.soil.whole.kernel.aid.ContextHelper;
 import com.laiyefei.project.infrastructure.original.soil.whole.kernel.aid.binding.binder.*;
 import com.laiyefei.project.infrastructure.original.soil.whole.kernel.aid.binding.parser.BindAnnotationGroup;
 import com.laiyefei.project.infrastructure.original.soil.whole.kernel.aid.binding.parser.ConditionManager;
@@ -24,13 +25,10 @@ import com.laiyefei.project.infrastructure.original.soil.whole.kernel.aid.bindin
 import com.laiyefei.project.infrastructure.original.soil.whole.kernel.aid.binding.parser.ParserCache;
 import com.laiyefei.project.infrastructure.original.soil.whole.kernel.pojo.ao.*;
 import com.laiyefei.project.infrastructure.original.soil.whole.kernel.pojo.po.Dictionary;
+import com.laiyefei.project.infrastructure.original.soil.whole.kernel.service.DictionaryService;
 import com.laiyefei.project.infrastructure.original.soil.whole.kernel.tools.util.BeanUtil;
 import com.laiyefei.project.infrastructure.original.soil.whole.kernel.tools.util.StringUtil;
 import com.laiyefei.project.infrastructure.original.soil.whole.kernel.tools.util.Validator;
-import com.laiyefei.project.infrastructure.original.soil.whole.kernel.aid.ContextHelper;
-import com.laiyefei.project.original.soil.whole.kernel.aid.binding.binder.*;
-import com.laiyefei.project.original.soil.whole.kernel.pojo.ao.*;
-import com.laiyefei.project.infrastructure.original.soil.whole.kernel.service.DictionaryService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
