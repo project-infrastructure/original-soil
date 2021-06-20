@@ -23,7 +23,7 @@ public abstract class AbsApplication implements IStandardJava, CommandLineRunner
     @Override
     public void run(String... args) throws Exception {
         //根路径
-        final String rootPath = IPUtil.getHostIpPort(environment).concat(JudgeUtil.NVL("/" + environment.getProperty("server.servlet.context-path"), StringUtil.EMPTY));
+        final String rootPath = IPUtil.getHostIpPort(environment).concat(JudgeUtil.NVL(environment.getProperty("server.servlet.context-path"), StringUtil.EMPTY));
 
         System.out.println("||||||||||||||||||||||||||||||||||||||||||");
         System.out.println("-------<<<<<<<<<< " + environment.getProperty("spring.application.name") + "成功启动 --------------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<");
