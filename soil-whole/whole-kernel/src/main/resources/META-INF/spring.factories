@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.laiyefei.project.original.soil.whole.kernel.action.AutoKernelScanner
+com.laiyefei.project.infrastructure.original.soil.whole.kernel.action.AutoKernelScanner
