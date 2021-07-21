@@ -4,7 +4,6 @@ import com.google.common.base.Predicates;
 import com.laiyefei.project.infrastructure.original.soil.equip.swagger.SwaggerInstall;
 import com.laiyefei.project.infrastructure.original.soil.equip.swagger.co.SwaggerModuleInfo;
 import com.laiyefei.project.infrastructure.original.soil.equip.swagger.co.WhiteList;
-import com.laiyefei.project.infrastructure.original.soil.standard.foundation.pojo.co.IModule;
 import com.laiyefei.project.infrastructure.original.soil.standard.foundation.prepper.IPrepper;
 import com.laiyefei.project.infrastructure.original.soil.standard.spread.foundation.performer.TokenConfiger;
 import com.laiyefei.project.infrastructure.original.soil.standard.spread.foundation.pojo.co.LicenseType;
@@ -43,7 +42,7 @@ import java.util.stream.Collectors;
  * @Author : leaf.fly(?)
  * @Create : 2020-08-29 18:09
  * @Desc : swagger 配置
- * @Version : v1.0.0.20200829
+ * @Version : v2.0.0.20200829
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */

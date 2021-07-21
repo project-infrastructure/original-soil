@@ -1,6 +1,6 @@
 package com.laiyefei.project.infrastructure.original.soil.standard.spread.foundation.tools.util;
 
-import com.laiyefei.project.infrastructure.original.soil.standard.foundation.tools.util.IUtil;
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.utensil.util.IUtil;
 import com.laiyefei.project.infrastructure.original.soil.standard.spread.foundation.pojo.co.EncodeType;
 import org.apache.commons.io.IOUtils;
 
@@ -13,7 +13,7 @@ import java.util.zip.ZipOutputStream;
  * @Author : leaf.fly(?)
  * @Create : 2020-04-08 12:52
  * @Desc : this is class named ZipUtil.
- * @Version : v1.0.0.20200408
+ * @Version : v2.0.0.20200408
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */

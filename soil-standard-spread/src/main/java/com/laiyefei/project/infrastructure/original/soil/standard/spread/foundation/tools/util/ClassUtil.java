@@ -1,7 +1,6 @@
 package com.laiyefei.project.infrastructure.original.soil.standard.spread.foundation.tools.util;
 
 import com.alibaba.spring.util.AnnotationUtils;
-import com.laiyefei.project.infrastructure.original.soil.standard.foundation.pojo.co.IModule;
 import org.reflections.Reflections;
 import org.springframework.context.ApplicationContext;
 import org.springframework.core.annotation.Order;
@@ -15,7 +14,7 @@ import java.util.stream.Collectors;
  * @Author : leaf.fly(?)
  * @Create : 2020-03-15 15:55
  * @memo : this is util about class
- * @Version : v1.0.0.20200315
+ * @Version : v2.0.0.20200315
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */

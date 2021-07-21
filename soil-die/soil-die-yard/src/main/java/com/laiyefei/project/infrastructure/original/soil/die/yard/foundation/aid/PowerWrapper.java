@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
  * @Author : leaf.fly(?)
  * @Create : 2020-09-29 18:09
  * @Desc : 权限包装
- * @Version : v1.0.0.20200929
+ * @Version : v2.0.0.20200929
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */

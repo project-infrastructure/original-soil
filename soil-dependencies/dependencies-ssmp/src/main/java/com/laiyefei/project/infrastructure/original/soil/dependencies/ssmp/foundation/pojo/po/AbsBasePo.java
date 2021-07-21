@@ -5,7 +5,7 @@ import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.extension.activerecord.Model;
-import com.laiyefei.project.infrastructure.original.soil.standard.foundation.pojo.po.IPo;
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.zoo.po.IPo;
 import com.laiyefei.project.infrastructure.original.soil.standard.spread.foundation.pojo.dto.AbsDto;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -18,7 +18,7 @@ import java.sql.Timestamp;
  * @Author : leaf.fly(?)
  * @Create : 2020-08-29 18:09
  * @Desc : 基础po对象
- * @Version : v1.0.0.20200829
+ * @Version : v2.0.0.20200829
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */

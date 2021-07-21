@@ -16,7 +16,7 @@
 package com.laiyefei.project.infrastructure.original.soil.whole.kernel.tools.util;
 
 
-import com.laiyefei.project.infrastructure.original.soil.standard.foundation.tools.util.IUtil;
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.utensil.util.IUtil;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.time.DateUtils;
 import org.slf4j.Logger;
@@ -32,7 +32,7 @@ import java.util.Date;
  * @Author : leaf.fly(?)
  * @Create : 2020-08-29 18:09
  * @Desc : Date 工具类
- * @Version : v1.0.0.20200829
+ * @Version : v2.0.0.20200829
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */

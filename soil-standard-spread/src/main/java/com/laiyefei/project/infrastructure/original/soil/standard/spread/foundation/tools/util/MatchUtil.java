@@ -1,12 +1,12 @@
 package com.laiyefei.project.infrastructure.original.soil.standard.spread.foundation.tools.util;
 
-import com.laiyefei.project.infrastructure.original.soil.standard.foundation.tools.util.IUtil;
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.utensil.util.IUtil;
 
 /**
  * @Author : leaf.fly(?)
  * @Create : 2020-04-05 08:01
  * @Desc : this is class named MatchUtil for do MatchUtil
- * @Version : v1.0.0.20200405
+ * @Version : v2.0.0.20200405
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */

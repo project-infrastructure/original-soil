@@ -1,7 +1,7 @@
 package com.laiyefei.project.infrastructure.original.soil.standard.spread.foundation.tools.util;
 
 
-import com.laiyefei.project.infrastructure.original.soil.standard.foundation.tools.util.IUtil;
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.utensil.util.IUtil;
 
 import java.util.UUID;
 
@@ -9,7 +9,7 @@ import java.util.UUID;
  * @Author : leaf.fly(?)
  * @Create : 2020-03-15 15:55
  * @memo : this is class named BuildUtil for do BuildUtil
- * @Version : v1.0.0.20200315
+ * @Version : v2.0.0.20200315
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */

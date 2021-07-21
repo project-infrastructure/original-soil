@@ -20,13 +20,13 @@
     <groupId>com.laiyefei.project.infrastructure</groupId>
     <artifactId>original-soil</artifactId>
     <packaging>pom</packaging>
-    <version>v1.0.0-SNAPSHOT</version>
-    <name>源端 ➥ ${project.version}</name>
+    <version>v2.0.0-SNAPSHOT</version>
+    <name>源端 - ➥ ${project.version}</name>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <soil.default.version>v1.0.0-SNAPSHOT</soil.default.version>
+        <soil.default.version>v2.0.0-SNAPSHOT</soil.default.version>
 
         <lombok.version>1.18.12</lombok.version>
         <maven.plugin.version>3.8.1</maven.plugin.version>

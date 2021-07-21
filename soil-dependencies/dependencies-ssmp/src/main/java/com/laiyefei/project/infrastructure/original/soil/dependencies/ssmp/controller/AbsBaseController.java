@@ -20,7 +20,7 @@ import java.util.function.Supplier;
  * @Author : leaf.fly(?)
  * @Create : 2020-08-29 18:09
  * @Desc : 基础控制器
- * @Version : v1.0.0.20200829
+ * @Version : v2.0.0.20200829
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */

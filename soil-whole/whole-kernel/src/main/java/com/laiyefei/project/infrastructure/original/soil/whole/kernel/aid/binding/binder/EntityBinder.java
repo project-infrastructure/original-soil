@@ -32,7 +32,7 @@ import java.util.Map;
  * @Author : leaf.fly(?)
  * @Create : 2020-10-02 18:09
  * @Desc : Entity实体绑定Binder，用于绑定当前一个entity到目标对象的属性
- * @Version : v1.0.0
+ * @Version : v2.0.0
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */

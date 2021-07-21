@@ -15,7 +15,7 @@
  */
 package com.laiyefei.project.infrastructure.original.soil.whole.kernel.pojo.dto;
 
-import com.laiyefei.project.infrastructure.original.soil.standard.foundation.pojo.dto.IDto;
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.zoo.dto.IDto;
 import com.laiyefei.project.infrastructure.original.soil.whole.kernel.pojo.ao.BindPoList;
 import com.laiyefei.project.infrastructure.original.soil.whole.kernel.pojo.po.Dictionary;
 import lombok.Getter;
@@ -28,7 +28,7 @@ import java.util.List;
  * @Author : leaf.fly(?)
  * @Create : 2020-08-29 18:09
  * @Desc : 数据字典的VO，附带子项定义children
- * @Version : v1.0.0.20200829
+ * @Version : v2.0.0.20200829
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */

@@ -1,7 +1,7 @@
 package com.laiyefei.project.infrastructure.original.soil.standard.spread.foundation.tools.util;
 
 
-import com.laiyefei.project.infrastructure.original.soil.standard.foundation.tools.util.IUtil;
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.utensil.util.IUtil;
 import org.springframework.core.env.Environment;
 
 import javax.servlet.http.HttpServletRequest;
@@ -12,7 +12,7 @@ import java.net.UnknownHostException;
  * @Author : leaf.fly(?)
  * @Create : 2020-03-15 09:05
  * @Desc : this is class named IPUtil for do IPUtil
- * @Version : v1.0.0.20200315
+ * @Version : v2.0.0.20200315
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */

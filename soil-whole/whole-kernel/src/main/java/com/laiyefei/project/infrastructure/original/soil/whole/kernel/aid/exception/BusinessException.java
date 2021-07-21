@@ -26,7 +26,7 @@ import java.util.Map;
  * @Author : leaf.fly(?)
  * @Create : 2020-08-29 18:09
  * @Desc : 通用的业务异常类 BusinessException，(json形式返回值同JsonResult，便于前端统一处理)
- * @Version : v1.0.0.20200829
+ * @Version : v2.0.0.20200829
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */

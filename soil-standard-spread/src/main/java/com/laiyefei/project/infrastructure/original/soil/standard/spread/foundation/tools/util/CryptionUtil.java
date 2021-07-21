@@ -1,6 +1,6 @@
 package com.laiyefei.project.infrastructure.original.soil.standard.spread.foundation.tools.util;
 
-import com.laiyefei.project.infrastructure.original.soil.standard.foundation.tools.util.IUtil;
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.utensil.util.IUtil;
 import com.laiyefei.project.infrastructure.original.soil.standard.spread.foundation.pojo.co.EncodeType;
 import lombok.Getter;
 import lombok.SneakyThrows;
@@ -20,7 +20,7 @@ import java.util.Base64;
  * @Author : leaf.fly(?)
  * @Create : 2021-05-18 16:32
  * @Desc : 加解密工具类
- * @Version : v1.0.0
+ * @Version : v2.0.0
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */

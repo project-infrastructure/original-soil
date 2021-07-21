@@ -22,7 +22,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @Author : leaf.fly(?)
  * @Create : 2020-08-29 18:09
  * @Desc : 基础CRUD的父类Mapper
- * @Version : v1.0.0.20200829
+ * @Version : v2.0.0.20200829
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */

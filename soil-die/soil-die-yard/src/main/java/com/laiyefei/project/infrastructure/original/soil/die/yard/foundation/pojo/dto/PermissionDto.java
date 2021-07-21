@@ -10,7 +10,7 @@ import io.swagger.annotations.ApiModelProperty;
  * @Author : leaf.fly(?)
  * @Create : 2020-08-29 18:09
  * @Desc : 基本权限信息持久化对象
- * @Version : v1.0.0.20200829
+ * @Version : v2.0.0.20200829
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */

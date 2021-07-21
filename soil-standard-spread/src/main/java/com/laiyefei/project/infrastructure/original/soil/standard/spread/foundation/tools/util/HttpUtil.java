@@ -1,7 +1,7 @@
 package com.laiyefei.project.infrastructure.original.soil.standard.spread.foundation.tools.util;
 
 
-import com.laiyefei.project.infrastructure.original.soil.standard.foundation.tools.util.IUtil;
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.utensil.util.IUtil;
 
 import javax.net.ssl.*;
 import java.io.BufferedReader;
@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
  * @Author : leaf.fly(?)
  * @Create : 2020-04-04 12:05
  * @Desc : this is class named HttpUtil for do HttpUtil
- * @Version : v1.0.0.20200404
+ * @Version : v2.0.0.20200404
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */

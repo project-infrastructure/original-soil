@@ -12,7 +12,7 @@ import org.springframework.core.env.Environment;
  * @Author : leaf.fly(?)
  * @Create : 2020-09-28 18:09
  * @Desc : the abstract application
- * @Version : v1.0.0.20200928
+ * @Version : v2.0.0.20200928
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */

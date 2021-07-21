@@ -37,7 +37,7 @@ import java.util.Map;
  * @Author : leaf.fly(?)
  * @Create : 2020-08-29 18:09
  * @Desc : 全局异常统一处理的默认实现 （继承自该类并添加@ControllerAdvice注解即可自动支持兼容页面和JSON的异常处理）
- * @Version : v1.0.0.20200829
+ * @Version : v2.0.0.20200829
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */

@@ -15,14 +15,14 @@
  */
 package com.laiyefei.project.infrastructure.original.soil.whole.kernel.pojo.co;
 
-import com.laiyefei.project.infrastructure.original.soil.standard.foundation.pojo.co.ICo;
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.zoo.co.ICo;
 import lombok.Getter;
 
 /**
  * @Author : leaf.fly(?)
  * @Create : 2020-10-02 18:09
  * @Desc : checkpoint类型
- * @Version : v1.0.0
+ * @Version : v2.0.0
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */

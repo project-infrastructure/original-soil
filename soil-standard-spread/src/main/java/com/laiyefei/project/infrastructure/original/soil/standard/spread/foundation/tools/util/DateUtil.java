@@ -1,7 +1,7 @@
 package com.laiyefei.project.infrastructure.original.soil.standard.spread.foundation.tools.util;
 
 
-import com.laiyefei.project.infrastructure.original.soil.standard.foundation.tools.util.IUtil;
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.utensil.util.IUtil;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -10,7 +10,7 @@ import java.util.Date;
  * @Author : leaf.fly(?)
  * @Create : 2020-04-04 09:59
  * @Desc : this is class named DateUtil.
- * @Version : v1.0.0.20200404
+ * @Version : v2.0.0.20200404
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */

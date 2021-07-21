@@ -16,7 +16,7 @@
 package com.laiyefei.project.infrastructure.original.soil.whole.shell.tools.helper;
 
 import com.baomidou.mybatisplus.annotation.DbType;
-import com.laiyefei.project.infrastructure.original.soil.standard.foundation.tools.helper.IHelper;
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.utensil.helper.IHelper;
 import com.laiyefei.project.infrastructure.original.soil.whole.kernel.aid.ContextHelper;
 import com.laiyefei.project.infrastructure.original.soil.whole.kernel.tools.util.SqlExecutor;
 import com.laiyefei.project.infrastructure.original.soil.whole.kernel.tools.util.StringUtil;
@@ -36,7 +36,7 @@ import java.util.Map;
  * @Author : leaf.fly(?)
  * @Create : 2020-10-02 18:09
  * @Desc : SQL帮助类
- * @Version : v1.0.0.20201002
+ * @Version : v2.0.0.20201002
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */

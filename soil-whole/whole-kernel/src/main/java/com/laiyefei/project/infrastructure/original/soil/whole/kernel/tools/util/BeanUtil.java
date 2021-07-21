@@ -16,7 +16,7 @@
 package com.laiyefei.project.infrastructure.original.soil.whole.kernel.tools.util;
 
 
-import com.laiyefei.project.infrastructure.original.soil.standard.foundation.tools.util.IUtil;
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.utensil.util.IUtil;
 import com.laiyefei.project.infrastructure.original.soil.whole.kernel.aid.IGetter;
 import com.laiyefei.project.infrastructure.original.soil.whole.kernel.aid.ISetter;
 import com.laiyefei.project.infrastructure.original.soil.whole.kernel.aid.binding.AcceptAnnoCopier;
@@ -50,7 +50,7 @@ import java.util.stream.Collectors;
  * @Author : leaf.fly(?)
  * @Create : 2020-08-29 18:09
  * @Desc : Bean相关处理工具类
- * @Version : v1.0.0.20200829
+ * @Version : v2.0.0.20200829
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */

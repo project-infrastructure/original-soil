@@ -1,7 +1,7 @@
 package com.laiyefei.project.infrastructure.original.soil.standard.spread.foundation.tools.helper;
 
 
-import com.laiyefei.project.infrastructure.original.soil.standard.foundation.tools.helper.IHelper;
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.utensil.helper.IHelper;
 import com.laiyefei.project.infrastructure.original.soil.standard.spread.foundation.tools.util.JudgeUtil;
 import com.laiyefei.project.infrastructure.original.soil.standard.spread.foundation.tools.util.StringUtil;
 
@@ -20,7 +20,7 @@ import java.util.jar.JarFile;
  * @Author : leaf.fly(?)
  * @Create : 2020-04-09 09:05
  * @Desc : this is class named FileHelper for do FileHelper
- * @Version : v1.0.0.20200409
+ * @Version : v2.0.0.20200409
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */

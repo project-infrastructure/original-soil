@@ -1,13 +1,13 @@
 package com.laiyefei.project.infrastructure.original.soil.standard.spread.foundation.tools.util;
 
 
-import com.laiyefei.project.infrastructure.original.soil.standard.foundation.tools.util.IUtil;
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.utensil.util.IUtil;
 
 /**
  * @Author : leaf.fly(?)
  * @Create : 2020-05-10 11:24
  * @Desc : this is class named ProjectUtil.
- * @Version : v1.0.0.20200510
+ * @Version : v2.0.0.20200510
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */

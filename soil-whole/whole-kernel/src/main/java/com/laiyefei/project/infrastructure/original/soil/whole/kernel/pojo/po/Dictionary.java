@@ -16,8 +16,8 @@
 package com.laiyefei.project.infrastructure.original.soil.whole.kernel.pojo.po;
 
 import com.baomidou.mybatisplus.annotation.TableField;
-import com.laiyefei.project.infrastructure.original.soil.standard.foundation.pojo.dto.IDto;
-import com.laiyefei.project.infrastructure.original.soil.standard.foundation.pojo.po.IPo;
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.zoo.dto.IDto;
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.zoo.po.IPo;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.experimental.Accessors;
@@ -29,7 +29,7 @@ import javax.validation.constraints.NotNull;
  * @Author : leaf.fly(?)
  * @Create : 2020-08-29 18:09
  * @Desc : 数据字典实体
- * @Version : v1.0.0.20200829
+ * @Version : v2.0.0.20200829
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */

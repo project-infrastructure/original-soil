@@ -15,8 +15,8 @@
  */
 package com.laiyefei.project.infrastructure.original.soil.whole.kernel.pojo.po;
 
-import com.laiyefei.project.infrastructure.original.soil.standard.foundation.pojo.dto.IDto;
-import com.laiyefei.project.infrastructure.original.soil.standard.foundation.pojo.po.IPo;
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.zoo.dto.IDto;
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.zoo.po.IPo;
 
 import javax.validation.Valid;
 import java.util.*;
@@ -25,7 +25,7 @@ import java.util.*;
  * @Author : leaf.fly(?)
  * @Create : 2020-08-29 18:09
  * @Desc : 可校验的List包装类，用于接收List并绑定校验
- * @Version : v1.0.0.20200829
+ * @Version : v2.0.0.20200829
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */

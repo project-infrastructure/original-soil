@@ -1,13 +1,13 @@
 package com.laiyefei.project.infrastructure.original.soil.standard.spread.foundation.pojo.co;
 
 
-import com.laiyefei.project.infrastructure.original.soil.standard.foundation.pojo.co.ICo;
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.zoo.co.ICo;
 
 /**
  * @Author : leaf.fly(?)
  * @Create : 2020-04-07 12:52
  * @Desc : exception enum
- * @Version : v1.0.0.20200407
+ * @Version : v2.0.0.20200407
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */

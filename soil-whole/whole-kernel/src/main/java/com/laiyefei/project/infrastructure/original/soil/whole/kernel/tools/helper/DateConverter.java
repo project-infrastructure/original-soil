@@ -26,7 +26,7 @@ import java.util.Date;
  * @Author : leaf.fly(?)
  * @Create : 2020-08-29 18:09
  * @Desc : Spring表单自动绑定到Java属性时的日期格式转换
- * @Version : v1.0.0.20200829
+ * @Version : v2.0.0.20200829
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */

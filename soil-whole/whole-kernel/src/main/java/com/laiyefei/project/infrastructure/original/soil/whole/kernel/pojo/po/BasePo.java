@@ -17,7 +17,7 @@ package com.laiyefei.project.infrastructure.original.soil.whole.kernel.pojo.po;
 
 import com.alibaba.fastjson.annotation.JSONField;
 import com.baomidou.mybatisplus.annotation.*;
-import com.laiyefei.project.infrastructure.original.soil.standard.foundation.pojo.po.IPo;
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.zoo.po.IPo;
 import com.laiyefei.project.infrastructure.original.soil.standard.spread.foundation.pojo.po.AbsPo;
 import com.laiyefei.project.infrastructure.original.soil.whole.kernel.tools.util.BeanUtil;
 import com.laiyefei.project.infrastructure.original.soil.whole.kernel.tools.util.DateUtil;
@@ -35,7 +35,7 @@ import java.util.Map;
  * @Author : leaf.fly(?)
  * @Create : 2020-08-29 18:09
  * @Desc : Po基础父类
- * @Version : v1.0.0.20200829
+ * @Version : v2.0.0.20200829
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */

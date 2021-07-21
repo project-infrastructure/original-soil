@@ -22,7 +22,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  * @Author : leaf.fly(?)
  * @Create : 2020-10-02 18:09
  * @Desc : 内核配置文件类
- * @Version : v1.0.0.20201002
+ * @Version : v2.0.0.20201002
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */

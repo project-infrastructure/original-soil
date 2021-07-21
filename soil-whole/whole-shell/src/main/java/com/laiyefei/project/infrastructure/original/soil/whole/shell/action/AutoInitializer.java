@@ -13,7 +13,7 @@ import org.springframework.core.annotation.Order;
  * @Author : leaf.fly(?)
  * @Create : 2020-10-02 18:09
  * @Desc : 自动初始化
- * @Version : v1.0.0.20201002
+ * @Version : v2.0.0.20201002
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */

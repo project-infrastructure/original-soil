@@ -1,7 +1,7 @@
 package com.laiyefei.project.infrastructure.original.soil.die.yard.foundation.pojo.eo;
 
-import com.laiyefei.project.infrastructure.original.soil.standard.foundation.pojo.co.ICo;
-import com.laiyefei.project.infrastructure.original.soil.standard.foundation.pojo.eo.IEo;
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.zoo.co.ICo;
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.zoo.eo.IEo;
 import com.laiyefei.project.infrastructure.original.soil.standard.spread.foundation.pojo.co.ExceptionEnum;
 import com.laiyefei.project.infrastructure.original.soil.standard.spread.foundation.pojo.eo.AbsException;
 
@@ -9,7 +9,7 @@ import com.laiyefei.project.infrastructure.original.soil.standard.spread.foundat
  * @Author : leaf.fly(?)
  * @Create : 2020-08-29 18:09
  * @Desc : page view exception
- * @Version : v1.0.0.20200829
+ * @Version : v2.0.0.20200829
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */

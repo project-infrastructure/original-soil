@@ -1,7 +1,7 @@
 package com.laiyefei.project.infrastructure.original.soil.standard.spread.foundation.tools.util;
 
 
-import com.laiyefei.project.infrastructure.original.soil.standard.foundation.tools.util.IUtil;
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.utensil.util.IUtil;
 
 import java.util.ArrayList;
 
@@ -9,7 +9,7 @@ import java.util.ArrayList;
  * @Author : leaf.fly(?)
  * @Create : 2020-04-20 07:23
  * @Desc : this is class named CollectionUtil for do CollectionUtil
- * @Version : v1.0.0.20200420
+ * @Version : v2.0.0.20200420
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */

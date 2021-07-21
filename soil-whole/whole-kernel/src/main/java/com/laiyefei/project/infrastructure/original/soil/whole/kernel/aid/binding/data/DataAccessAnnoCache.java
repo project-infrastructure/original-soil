@@ -34,7 +34,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * @Author : leaf.fly(?)
  * @Create : 2020-10-02 18:09
  * @Desc : 数据访问权限的注解缓存
- * @Version : v1.0.0
+ * @Version : v2.0.0
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */
