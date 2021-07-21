@@ -3,6 +3,7 @@ package com.laiyefei.project.infrastructure.original.soil.die.yard.foundation.po
 import com.laiyefei.project.infrastructure.original.soil.die.yard.foundation.pojo.dao.IRoleDao;
 import com.laiyefei.project.infrastructure.original.soil.die.yard.foundation.pojo.dao.IUserDao;
 import com.laiyefei.project.infrastructure.original.soil.die.yard.foundation.pojo.dao.IUserRoleDao;
+import com.laiyefei.project.infrastructure.original.soil.die.yard.foundation.pojo.dto.UserDto;
 import com.laiyefei.project.infrastructure.original.soil.die.yard.foundation.pojo.po.Role;
 import com.laiyefei.project.infrastructure.original.soil.die.yard.foundation.pojo.po.User;
 import com.laiyefei.project.infrastructure.original.soil.dependencies.ssmp.foundation.aid.ContextHolder;
@@ -19,7 +20,7 @@ import java.util.List;
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */
-public class UserBExt extends AbsBaseBo<User> {
+public class UserBExt extends AbsBaseBo<UserDto, User> {
     private final IUserRoleDao userRoleDao;
     private final IUserDao userDao;
     private final IRoleDao roleDao;

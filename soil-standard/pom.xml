@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>soil-standard</artifactId>
-    <name>源端 - 标准 ➥ ${project.version}</name>
+    <name>源端 - 标准 - ➥ ${project.version}</name>
 
 
     <!-- region project-infrastructure/repository maven 仓库 -->

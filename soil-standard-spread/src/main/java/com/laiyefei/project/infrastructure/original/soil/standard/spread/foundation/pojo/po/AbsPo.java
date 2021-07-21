@@ -1,7 +1,10 @@
 package com.laiyefei.project.infrastructure.original.soil.standard.spread.foundation.pojo.po;
 
 
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.zoo.bo.IBo;
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.zoo.dto.IDto;
 import com.laiyefei.project.infrastructure.original.soil.standard.foundation.zoo.po.IPo;
+import lombok.RequiredArgsConstructor;
 
 import java.io.Serializable;
 
@@ -13,5 +16,12 @@ import java.io.Serializable;
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */
-public abstract class AbsPo implements IPo, Serializable {
+@RequiredArgsConstructor
+public abstract class AbsPo<BO extends IBo<? extends IDto<BO>, ? extends IPo<BO>>> implements IPo<BO>, Serializable {
+    private final BO bo;
+
+    @Override
+    public BO gainBO() {
+        return this.bo;
+    }
 }

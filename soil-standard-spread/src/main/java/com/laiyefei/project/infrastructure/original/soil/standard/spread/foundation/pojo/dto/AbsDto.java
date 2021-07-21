@@ -2,6 +2,9 @@ package com.laiyefei.project.infrastructure.original.soil.standard.spread.founda
 
 
 import com.laiyefei.project.infrastructure.original.soil.standard.foundation.zoo.dto.IDto;
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.zoo.po.IPo;
+import com.laiyefei.project.infrastructure.original.soil.standard.spread.foundation.pojo.bo.AbsBaseBo;
+import lombok.RequiredArgsConstructor;
 
 import java.io.Serializable;
 
@@ -13,6 +16,12 @@ import java.io.Serializable;
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */
-public abstract class AbsDto implements IDto, Serializable {
+@RequiredArgsConstructor
+public abstract class AbsDto<BO extends AbsBaseBo<? extends IDto<? extends BO>, ? extends IPo<? extends BO>>> implements IDto<BO>, Serializable {
+    private final BO bo;
 
+    @Override
+    public BO gainBO() {
+        return this.bo;
+    }
 }

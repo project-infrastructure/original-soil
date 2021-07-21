@@ -13,7 +13,7 @@ import com.laiyefei.project.infrastructure.original.soil.standard.foundation.zoo
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */
-public interface IBo<DTO extends IDto<PO>, PO extends IPo<DTO>> extends IZoo {
+public interface IBo<DTO extends IDto<? extends IBo<DTO, PO>>, PO extends IPo<? extends IBo<DTO, PO>>> extends IZoo {
 
     /**
      * 获取DTO对象

@@ -15,4 +15,10 @@ import com.laiyefei.project.infrastructure.original.soil.standard.foundation.zoo
  * @Github : http://github.com/laiyefei
  */
 public interface ICentral<BO extends IBo<? extends IDto<?>, ? extends IPo<?>>> extends IStandard {
+    /**
+     * 获取业务对象
+     *
+     * @return
+     */
+    BO gainBO();
 }

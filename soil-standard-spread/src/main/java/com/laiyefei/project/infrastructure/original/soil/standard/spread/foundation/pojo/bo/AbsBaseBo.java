@@ -4,6 +4,7 @@ package com.laiyefei.project.infrastructure.original.soil.standard.spread.founda
 import com.laiyefei.project.infrastructure.original.soil.standard.foundation.zoo.bo.IBo;
 import com.laiyefei.project.infrastructure.original.soil.standard.foundation.zoo.dto.IDto;
 import com.laiyefei.project.infrastructure.original.soil.standard.foundation.zoo.po.IPo;
+import lombok.RequiredArgsConstructor;
 
 /**
  * @Author : leaf.fly(?)
@@ -13,12 +14,15 @@ import com.laiyefei.project.infrastructure.original.soil.standard.foundation.zoo
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */
-public abstract class AbsBaseBo<PO extends IPo<? extends IDto>> implements IBo<PO> {
-
+@RequiredArgsConstructor
+public abstract class AbsBaseBo<DTO extends IDto<? extends IBo<DTO, PO>>,
+        PO extends IPo<? extends IBo<DTO, PO>>> implements IBo<DTO, PO> {
+    protected final DTO dto;
     protected final PO po;
 
-    public AbsBaseBo(PO po) {
-        this.po = po;
+    @Override
+    public DTO gainDTO() {
+        return this.dto;
     }
 
     @Override

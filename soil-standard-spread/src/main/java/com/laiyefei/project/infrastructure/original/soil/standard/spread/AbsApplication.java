@@ -1,6 +1,6 @@
 package com.laiyefei.project.infrastructure.original.soil.standard.spread;
 
-import com.laiyefei.project.infrastructure.original.soil.standard.IStandardJava;
+import com.laiyefei.project.infrastructure.original.soil.standard.IStandard;
 import com.laiyefei.project.infrastructure.original.soil.standard.spread.foundation.tools.util.IPUtil;
 import com.laiyefei.project.infrastructure.original.soil.standard.spread.foundation.tools.util.JudgeUtil;
 import com.laiyefei.project.infrastructure.original.soil.standard.spread.foundation.tools.util.StringUtil;
@@ -16,7 +16,7 @@ import org.springframework.core.env.Environment;
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */
-public abstract class AbsApplication implements IStandardJava, CommandLineRunner, EnvironmentAware {
+public abstract class AbsApplication implements IStandard, CommandLineRunner, EnvironmentAware {
 
     protected Environment environment;
 

@@ -2,11 +2,8 @@ package com.laiyefei.project.infrastructure.original.soil.standard.foundation.zo
 
 
 import com.laiyefei.project.infrastructure.original.soil.standard.foundation.zoo.IZoo;
+import com.laiyefei.project.infrastructure.original.soil.standard.foundation.zoo.bo.IBo;
 import com.laiyefei.project.infrastructure.original.soil.standard.foundation.zoo.po.IPo;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.stream.Collectors;
 
 /**
  * @Author : leaf.fly(?)
@@ -16,40 +13,11 @@ import java.util.stream.Collectors;
  * @Blog : http://laiyefei.com
  * @Github : http://github.com/laiyefei
  */
-public interface IDto<PO extends IPo<? extends IDto<PO>>> extends IZoo {
-
+public interface IDto<BO extends IBo<? extends IDto<? extends BO>, ? extends IPo<? extends BO>>> extends IZoo {
     /**
-     * 建造持久对象
+     * 获取支持的业务对象
      *
      * @return
      */
-    PO buildPo();
-
-
-    /**
-     * po 转换成 dto
-     *
-     * @param po
-     * @param <PO>
-     * @return
-     */
-    static <PO extends IPo<? extends IDto<PO>>> IDto<PO> SwitchAs(final PO po) {
-        return po.buildDto();
-    }
-
-    /**
-     * po 转换成 dto
-     *
-     * @param pos
-     * @param <PO>
-     * @return
-     */
-    static <PO extends IPo<? extends IDto<PO>>> List<IDto<PO>> SwitchAs(final List<PO> pos) {
-        if (null == pos) {
-            return new ArrayList<>();
-        }
-        return pos.stream().map(e -> e.buildDto()).collect(Collectors.toList());
-    }
-
-
+    BO gainBO();
 }
